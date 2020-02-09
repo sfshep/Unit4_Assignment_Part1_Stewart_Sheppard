@@ -39,7 +39,7 @@ int main()
     n3572 = ( (n+3)/5 ) + ( (n+7)/2) ;
 
 //Output
-    cout << "\nThe number that you input was " << n << endl;
+    cout << "\nThe number that you entered was " << n << endl;
     cout << "\nn * n = " << nMult;
     cout << "\nn / n = " << nDiv;
     cout << "\n( "<< n << " + 3 ) / 5 ) = " << n35;
