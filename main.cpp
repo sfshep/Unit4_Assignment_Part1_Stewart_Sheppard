@@ -28,6 +28,10 @@ int main()
   {
     cout << "\n\nPlease enter in a number (-1 to exit): ";
     n = validateDouble(n);
+    if (n == -1)
+    {
+      break;
+    }
  //Process
     nMult = (n * n);
     nDiv = (n / n);
@@ -43,7 +47,7 @@ int main()
     counter ++; // number of iterations
 
   }
-  cout << "\nThis program ran " << counter;
+  cout << "\n\nThis program ran " << counter;
   cout << " times.";
   
 }
